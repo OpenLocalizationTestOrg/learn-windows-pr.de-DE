@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+title: Debugging basics with Visual Studio
+uid: learn-windows.introducing-visual-studio.2-debugging
+metadata:
+  title: Debugging basics with Visual Studio
+  description: An introduction to debugging
+  ms.date: 12/10/2018
+  author: JohnKennedy
+  ms.author: jken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+  ROBOTS: NOINDEX
+durationInMinutes: 15
+content: |
+    [!include[](includes/2-debugging.md)]

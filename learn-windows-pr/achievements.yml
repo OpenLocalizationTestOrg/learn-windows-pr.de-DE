@@ -1,0 +1,42 @@
+### YamlMime:Achievements
+achievements:
+- uid: learn-windows.sample-path.trophy
+  type: trophy
+  title: Microsoft Learn Windows Sample Learning Path Trophy
+  summary: Sample Learning Path Trophy Summary
+  iconUrl: /learn/achievements/windows-logo.svg
+- uid: learn-windows.sample-module.badge
+  type: badge
+  title: Microsoft Learn Windows Sample Module Badge
+  summary: Sample Module Badge Summary
+  iconUrl: /learn/achievements/windows-logo.svg
+- uid: learn-windows.building-connected-windows-apps.badge
+  type: badge
+  title: Write internet-connected Windows apps
+  summary: Write internet-connected Windows apps
+  iconUrl: /learn/achievements/build-internet-connected-windows-apps.svg
+- uid: learn-windows.introducing-visual-studio.badge
+  type: badge
+  title: Getting started with Visual Studio for Windows 10 app development
+  summary: Getting started with Visual Studio for Windows 10 app development
+  iconUrl: /learn/achievements/introduction-to-visual-studio-for-windows10-dev.svg
+- uid: learn-windows.develop-windows-apps.trophy
+  type: trophy
+  title: Develop Windows 10 applications learning path
+  summary: Develop Windows 10 applications learning path trophy
+  iconUrl: /learn/achievements/develop-windows10-apps.svg
+- uid: learn-windows.add-machine-learning-to-your-uwp-app.badge
+  type: badge
+  title: Add an image classification model to a Universal Windows Platform (UWP) app
+  summary: Add an image classification model to a Universal Windows Platform (UWP) app
+  iconUrl: /learn/achievements/add-image-classification-to-your-uwp-app.svg
+- uid: learn-windows.introduction-w10-dev.badge
+  type: badge
+  title: Introduction to Windows 10 development
+  summary: Introduction to Windows 10 development
+  iconUrl: /learn/achievements/introduction-to-windows-10-development.svg
+- uid: learn-windows.writing-windows-10-apps.badge
+  type: badge
+  title: Write your first Windows 10 application
+  summary: Write your first Windows 10 application
+  iconUrl: /learn/achievements/write-your-first-windows10-app.svg

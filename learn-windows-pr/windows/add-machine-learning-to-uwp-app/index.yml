@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-windows.add-machine-learning-to-your-uwp-app
+metadata:
+  title: Add machine learning to a Universal Windows Platform (UWP) app
+  description: Add a machine learning model to a UWP app so that it can run offline on a Windows device.
+  ms.date: 12/10/2018
+  author: mattwojo
+  ms.author: mattwoj
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+title: Add a machine learning model to a UWP app so that it can run offline on a Windows device
+summary: Experience the benefits of local client-side evaluation with the Intelligent Edge by downloading a pre-trained image classification model and adding it to a UWP app. Windows Machine Learning (ML) enables models to run evaluations offline on any Windows 10 device. 
+abstract:  |
+  In this module, you will:
+  - Compare using a machine learning model locally with Windows ML to a cloud-based system
+  - Set up a simple UWP app with C#
+  - Add a pre-trained machine learning model to your app
+  - Load the model, bind the inputs and outputs, and use it to evaluate input
+  - Test the model by drawing digits into a Windows Ink Canvas to see whether the model can recognize what number we've drawn
+prerequisites: |
+ - A basic understanding of UWP app development with C#
+iconUrl: /learn/achievements/machine-learning-using-windows.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- windows
+units:
+- learn-windows.add-machine-learning-to-your-uwp-app.1-introduction-to-windows-machine-learning
+- learn-windows.add-machine-learning-to-your-uwp-app.2-create-uwp-app
+- learn-windows.add-machine-learning-to-your-uwp-app.3-add-onnx-model-to-your-uwp-app
+- learn-windows.add-machine-learning-to-your-uwp-app.4-load-bind-evaluate
+- learn-windows.add-machine-learning-to-your-uwp-app.5-summary-and-knowledge-check
+achievement: learn-windows.add-machine-learning-to-your-uwp-app.badge

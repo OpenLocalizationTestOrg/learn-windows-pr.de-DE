@@ -1,4 +1,4 @@
-### YamlMime:LearningPath
+﻿### YamlMime:LearningPath
 uid: learn.work-with-nosql-data-in-azure-cosmos-db
 metadata:
   title: Work with NoSQL data in Azure Cosmos DB learning path
@@ -28,7 +28,7 @@ products:
 modules:
 - learn.create-cosmos-db-for-scale
 - learn.access-data-with-cosmos-db-and-sql-api
-- learn.cosmos-db-app-with-vscode
+#- learn.cosmos-db-app-with-vscode
 #TODO: Add - learn.monitor-azure-cosmos-db (POST-IGNITE)
 - learn.distribute-data-globally-with-cosmos-db
 trophy:

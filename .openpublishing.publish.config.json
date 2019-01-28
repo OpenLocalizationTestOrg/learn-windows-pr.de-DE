@@ -31,6 +31,7 @@
     "master-sxs"
   ],
   "continue_with_document_error": true,
+  "enable_incremental_build": false,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
   "contribution_branch_mappings": {},

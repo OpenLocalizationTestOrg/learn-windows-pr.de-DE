@@ -1,0 +1,79 @@
+### YamlMime:ModuleUnit
+title: Summary
+uid: learn-windows.add-machine-learning-to-your-uwp-app.5-summary-and-knowledge-check
+metadata:
+  title: Summary
+  description: Summary
+  ms.date: 12/10/2018
+  author: mattwojo
+  ms.author: mattwoj
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+    [!include[](includes/5-summary-and-knowledge-check.md)]
+#TODO: Remove links out of the knowledge check.
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Which of the following offer the most accurate reasons to perform evaluations locally with a machine learning model as opposed to in the cloud?"
+    choices:
+    - content: "Provides the ability to respond, reason and act in real time and in areas with limited or no connectivity, while also enabling the community of users to continuous train the model with new images and tags to increase evaluation accuracy and intelligence over time."
+      isCorrect: false
+      explanation: "While performing evaluations with a local model does enable the ability to respond, reason, and act in real time in areas with limited or no connectivity. Working with a local model, off-line, does not allow for continuous training of the model by the community of users uploading and tagging more images. That would require connecting with the model in the cloud."
+    - content: "Windows ML support is built in to all Windows 10 devices, meaning that machine learning models can be installed in any format and there is no risk of data-loss from a damaged machine."
+      isCorrect: false
+      explanation: "While Windows ML is built in to all Windows 10 devices, machine learning models must be converted to ONNX format to be used for evaluation. If you want to use a model that is not in ONNX format, here is a link to [Convert ML models to ONNX with WinMLTools](https://docs.microsoft.com/windows/ai/convert-model-winmltools). It is also not true that there is no risk of losing data-loss from a damaged machine. You should consider storage back-up options if you are collecting local evaluation data."
+    - content: "In addition to providing fast, off-line results, local device evaluation avoids the privacy or regulatory concerns that can be an obstacle when moving data to the cloud."
+      isCorrect: true
+      explanation: "Certain scenarios, such as working in healthcare where HIPA laws prohibit sharing of sensitive patient data, may prohibit secure data from being sent to the cloud. In these cases, the ability to perform local client-side evaluation quickly, without the need for a secure online connection, waiting for data to make a roundtrip to the cloud, or potential obstacles of privacy release forms, machine learning could open up entirely new possibilities that would not be available via the cloud."
+
+  - content: "The recommended file format for using a machine learning model with a Windows 10 device is:"
+    choices:
+    - content: "CoreML"
+      isCorrect: false
+      explanation: "CoreML is Apple's machine learning framework for use with iOS apps. CoreML models can be converted for use with a Windows 10 device with WinML Tools, for help, see [Convert ML models to ONNX with WinMLTools](https://docs.microsoft.com/windows/ai/convert-model-winmltools)."
+    - content: "ONNX"
+      isCorrect: true
+      explanation: "ONNX stands for the Open Neural Network Exchange and is an open ecosystem for interchangeable, interoperable machine learning AI models supported by a community of partners, including Microsoft, Amazon, Facebook, and many more."
+    - content: "Scikit-learn"
+      isCorrect: false
+      explanation: "Scikit-learn is a Python machine learning library. Scikit-learn models can be converted for use with a Windows 10 device with WinML Tools, for help, see [Convert ML models to ONNX with WinMLTools](https://docs.microsoft.com/windows/ai/convert-model-winmltools)."
+
+  - content: "There can be a lot of work with image files to massage the file format into the input type that the model is expecting. Windows ML abstracts that away by using this file format to pass images into models:"
+    choices:
+    - content: "JPG"
+      isCorrect: false
+      explanation: "Nope. Too lossy, better convert it first. Try again."
+    - content: "PNG"
+      isCorrect: false
+      explanation: "Good guess. The most widely used lossless image format on the Internet, but not standard enough... better convert it."
+    - content: "ImageFeatureValue"
+      isCorrect: true
+      explanation: "The ImageFeatureValue class abstracts away the need to choose one specific file format by providing methods and properties for binding any image format after converting it to a [VideoFrame](https://docs.microsoft.com/uwp/api/windows.media.videoframe)."
+    - content: "BMP"
+      isCorrect: false
+      explanation: "You know we still love Windows Bitmap, but no compression means they can take up a lot of space. Better convert it."
+    - content: "VideoFrame"
+      isCorrect: false
+      explanation: "Close. Clearly you were paying attention, the [ImageFeatureValue Class](https://docs.microsoft.com/uwp/api/windows.ai.machinelearning.imagefeaturevalue) uses [VideoFrame](https://docs.microsoft.com/uwp/api/windows.media.videoframe) as the media class to create the image, but includes some binding methods and properties."
+
+  - content: "Bonus Challenge! Select the only item in this list that is *NOT* a method for training a new Machine Learning model:"
+    choices:
+    - content: "QnA Maker (Azure Cognitive Services) for creating rich knowledge resources that can be integrated into apps and services."
+      isCorrect: false
+      explanation: "QnA Maker can help you build knowledge-enabled apps for extraction from unstructured text, a knowledge base from a collection of Q&As, or a semantic matching knowledge base, [give it a try](https://azure.microsoft.com/services/cognitive-services/directory/know/)."
+    - content: "PyTorch framework for natural language processing."
+      isCorrect: false
+      explanation: "PyTorch is another great way to train a new model both locally or in the cloud. For an example of how to train a model with PyTorch using the MNIST dataset, see [Train a model with PyTorch](https://docs.microsoft.com/windows/ai/train-model-pytorch)."
+    - content: "Speech to Text (Azure Cognitive Services) for converting audio to text for natural responsiveness."
+      isCorrect: false
+      explanation: "Speech to Text is one of several ways that Azure Cognitive Services makes training speech models easy. Check out the [speech processing](https://azure.microsoft.com/services/cognitive-services/directory/speech/) of the Azure Cognitive Services site."
+    - content: "Microsoft Cognitive Toolkit (CNTK) framework with Visual Studio Tools for AI for describing neural networks as a series of computational steps via a directed graph."
+      isCorrect: false
+      explanation: "The Microsoft Cognitive Toolkit (CNTK) framework provides a great way to train a new model. For an example of how to train a new model with the MNIST dataset, check out [Train a model with CNTK](https://docs.microsoft.com/windows/ai/train-model-vs-tools-ai)."
+    - content: "Trick question. These are all ways to train a new ML model."
+      isCorrect: true
+      explanation: "All of the above offer ways to create a machine-learning model. Select each for a link to more info and help on how to use these services. Or check out the [Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) site."

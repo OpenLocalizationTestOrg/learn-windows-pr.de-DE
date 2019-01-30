@@ -28,7 +28,7 @@ units:
 - learn-windows.writing-windows-10-apps.0-intro-to-writing-apps
 - learn-windows.writing-windows-10-apps.1-writing-uwp-app
 - learn-windows.writing-windows-10-apps.2-writing-wpf-app
-#- learn-windows.writing-windows-10-apps.3-writing-windows-forms-app
+- learn-windows.writing-windows-10-apps.3-writing-windows-forms-app
 - learn-windows.writing-windows-10-apps.4-writing-app-using-windows-template-studio
 - learn-windows.writing-windows-10-apps.5-summary
 badge:
